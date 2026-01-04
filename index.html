@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Nowshin ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff5f6d, #ffc371);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .card {
+      background: rgba(0,0,0,0.35);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 360px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    }
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    button {
+      margin-top: 25px;
+      padding: 12px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      background: #ff3366;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ff1744;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Dear Nowshin ❤️</h1>
+  <p>
+    I tried to write code…<br>
+    but every line led me to you 💕<br><br>
+    You are my favorite logic,<br>
+    my sweetest bug fix ✨
+  </p>
+
+  <button onclick="showMessage()">Click Here 💌</button>
+  <h2 id="message"></h2>
+</div>
+
+<script>
+  function showMessage() {
+    document.getElementById("message").innerHTML =
+      "Nowshin, will you be mine forever? 💍❤️";
+  }
+</script>
+
+</body>
+</html>
